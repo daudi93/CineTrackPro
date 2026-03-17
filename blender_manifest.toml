@@ -1,0 +1,51 @@
+schema_version = "1.0.0"
+
+# Extension Identification
+id = "cinetrack_pro"
+version = "2.1.0"
+name = "CineTrack Pro"
+tagline = "Professional cinematic camera system with advanced tracking"
+maintainer = "Your Name"
+type = "add-on"
+
+# Documentation and Support
+website = "https://github.com/yourusername/cinetrack-pro"
+
+# Official Blender Tags
+tags = ["Animation", "Camera", "3D View", "Rigging"]
+
+# Compatibility
+blender_version_min = "4.2.0"
+
+# License
+license = ["SPDX:GPL-3.0-or-later"]
+
+# Copyright information
+copyright = ["2026 Your Name"]
+
+# Supported Platforms
+platforms = ["windows-x64", "windows-arm64", "macos-x64", "macos-arm64", "linux-x64"]
+
+# Permissions
+[permissions]
+files = "Read/write camera animation data to disk"
+
+# Build settings
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    ".git/",
+    "*.pyc",
+    "*.pyo",
+    "*.pyd",
+    ".DS_Store",
+    "thumbs.db",
+    "*.blend1",
+    "*.blend2",
+    "*.bak",
+    "*.swp",
+    "*.swo",
+    "tests/",
+    "examples/",
+    "screenshots/"
+]

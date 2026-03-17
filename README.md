@@ -1,5 +1,42 @@
 # CineTrack Pro - Professional Cinematic Camera System for Blender
 
+[![Blender Version](https://img.shields.io/badge/Blender-4.2+-orange.svg)](https://www.blender.org)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](https://github.com/yourusername/cinetrack-pro)
+
+**CineTrack Pro** transforms Blender into a professional cinematography tool with Hollywood-grade camera control.
+
+## ✨ Features
+
+- **Advanced Object Tracking** - 7 tracking modes with motion prediction
+- **Operator Behavior Simulation** - Realistic human camera operation
+- **Intelligent Framing** - Automatic rule of thirds and composition
+- **Shot Management** - Plan and execute entire cinematic sequences
+- **Professional Rigs** - Generate dolly, steadicam, car rigs
+- **Motion Presets** - 20+ presets for any situation
+
+## 🚀 Quick Installation
+
+1. Download `cinetrack_pro-2.1.0.zip`
+2. In Blender: `Edit → Preferences → Get Extensions → Install from Disk`
+3. Select the downloaded ZIP file
+4. Enable the add-on
+
+## 📖 Documentation
+
+Full documentation available in the [docs](docs/) folder:
+- [User Guide](docs/USER_GUIDE.md)
+- [Quick Reference](docs/QUICK_REFERENCE.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
+
+## 🎯 Quick Start
+
+```python
+1. Open 3D Viewport → Sidebar (N) → "Camera Motion" tab
+2. Select your camera in "Target Camera"
+3. Enable "Tracking ON" and set a target object
+4. Watch your camera automatically follow!
+
 ![CineTrack Pro Banner](https://via.placeholder.com/1200x300/1a1a1a/ffffff?text=CineTrack+Pro+2.1.0+-+Professional+Cinematic+Camera+System)
 
 [![Blender Version](https://img.shields.io/badge/Blender-4.0+-orange.svg)](https://www.blender.org)
