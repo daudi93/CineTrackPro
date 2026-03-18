@@ -2,7 +2,7 @@
 
 [![Blender Version](https://img.shields.io/badge/Blender-4.2+-orange.svg)](https://www.blender.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](https://github.com/yourusername/cinetrack-pro)
+[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](https://github.com/daudi93/CineTrackPro)
 
 **CineTrack Pro** transforms Blender into a professional cinematography tool with Hollywood-grade camera control.
 
@@ -41,8 +41,8 @@ Full documentation available in the [docs](docs/) folder:
 
 [![Blender Version](https://img.shields.io/badge/Blender-4.0+-orange.svg)](https://www.blender.org)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](https://github.com/yourusername/cinetrack-pro)
-[![Downloads](https://img.shields.io/badge/Downloads-1k%2B-brightgreen.svg)](https://github.com/yourusername/cinetrack-pro/releases)
+[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](https://github.com/daudi93/CineTrackPro)
+[![Downloads](https://img.shields.io/badge/Downloads-1k%2B-brightgreen.svg)](https://github.com/daudi93/CineTrackPro/releases)
 
 ---
 
@@ -72,7 +72,7 @@ Full documentation available in the [docs](docs/) folder:
 
 ### Installation
 
-1. **Download** `cinetrack_pro.py` from the [Releases](https://github.com/yourusername/cinetrack-pro/releases) page
+1. **Download** `cinetrack_pro.py` from the [Releases](https://github.com/daudi93/CineTrackPro/releases) page
 2. **Install in Blender**:
    ```
    Edit → Preferences → Add-ons → Install → Select cinetrack_pro.py
@@ -116,6 +116,7 @@ Full documentation available in the [docs](docs/) folder:
 
 Comprehensive documentation is available in the [`docs/`](docs/) folder:
 
+- **[User Guide](docs/CineTrackPro.pdf)** - Complete feature documentation
 - **[User Guide](docs/USER_GUIDE.md)** - Complete feature documentation
 - **[Quick Reference Card](docs/QUICK_REFERENCE.md)** - Cheat sheet for common tasks
 - **[API Reference](docs/API_REFERENCE.md)** - For developers and scripters
@@ -223,7 +224,7 @@ cinetrack_pro.py
 
 - **Blender**: Version 4.0.0 or higher
 - **RAM**: 4GB minimum (8GB+ recommended)
-- **Graphics**: OpenGL 3.3+ compatible
+- **Graphics**: None
 - **OS**: Windows 10/11, macOS 10.15+, Linux
 
 ---
@@ -287,7 +288,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cinetrack-pro.git
+git clone https://github.com/daudi93/CineTrackPro.git
 
 # Install in Blender development build
 # Copy cinetrack_pro.py to Blender's addons directory
@@ -315,39 +316,27 @@ git clone https://github.com/yourusername/cinetrack-pro.git
 - ✅ Fixed auto-rotation on installation
 - ✅ Improved tracking accuracy
 
-### Version 2.0.0
-- Initial release with shake system
-- Motion presets library
+### Version 2.1.0
+- Initial release with shake & Auto system
+- Motion presets library [Handheld, Vehicle, Impact, Cinematic]
+- Camera Tracking
+- Shake Controls
 - Physics simulation
+- Motion Layers
 - Event triggers
-- Motion layers
-
-### Planned for 3.0.0
-- Camera dolly system with UI control
-- Motion capture integration
-- AI-powered shot suggestion
-- Real-time collaboration
-- VR camera rigs
-- Stereo 3D support
-
----
-
-## 🐛 Known Issues
-
-- **Performance**: Very complex scenes may experience slowdown
-  - *Workaround*: Reduce history length, disable real-time preview
-- **Multiple Targets**: Full implementation pending
-  - *Workaround*: Use primary target with blend modes
-- **Mac Compatibility**: Tested on Intel, M1/M2 pending verification
+- Preview & Bake
+- Shot Manager (Manual Shot Management)
+- Shot Generator (Execute from Shot Manager)
+- Camera Rig
 
 ---
 
 ## 📞 Support
 
 - **Documentation**: See [`docs/`](docs/) folder
-- **Issues**: [GitHub Issues](https://github.com/yourusername/cinetrack-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/cinetrack-pro/discussions)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/daudi93/CineTrackPro/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/daudi93/CineTrackPro)
+- **Email**: qaisardaud86@gmail.com
 
 ---
 
@@ -383,16 +372,16 @@ GNU General Public License for more details.
 
 ## 📊 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/cinetrack-pro&type=Date)](https://star-history.com/#yourusername/cinetrack-pro&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=daudi93/cinetrack-pro&type=Date)](https://star-history.com/#daudi93/cinetrack-pro&Date)
 
 ---
 
 ## 🔗 Links
 
 - [Documentation](docs/USER_GUIDE.md)
-- [Download Latest Release](https://github.com/yourusername/cinetrack-pro/releases)
-- [Report Bug](https://github.com/yourusername/cinetrack-pro/issues)
-- [Request Feature](https://github.com/yourusername/cinetrack-pro/issues)
+- [Download Latest Release](https://github.com/daudi93/CineTrackPro/releases)
+- [Report Bug](https://github.com/daudi93/CineTrackPro/issues)
+- [Request Feature](https://github.com/daudi93/CineTrackPro/issues)
 - [Blender Market](https://blendermarket.com) (Coming Soon)
 
 ---
@@ -423,9 +412,8 @@ Copy-Item cinetrack_pro.py "$env:APPDATA\Blender Foundation\Blender\4.0\scripts\
 
 ```
 [Screenshot 1: Main Interface]
-[Screenshot 2: Tracking in Action]
+[Screenshot 2: Shot Generator]
 [Screenshot 3: Shot Manager]
-[Screenshot 4: Camera Rigs]
 ```
 
 ---

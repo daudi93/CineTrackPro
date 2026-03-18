@@ -5,14 +5,14 @@ id = "cinetrack_pro"
 version = "2.1.0"
 name = "CineTrack Pro"
 tagline = "Professional cinematic camera system with advanced tracking"
-maintainer = "Your Name"
+maintainer = "Qaisar Daud"
 type = "add-on"
 
 # Documentation and Support
-website = "https://github.com/yourusername/cinetrack-pro"
+website = "https://github.com/daudi93/CineTrackPro.git"
 
 # Official Blender Tags
-tags = ["Animation", "Camera", "3D View", "Rigging"]
+tags = ["Animation", "Camera", "3D View"]
 
 # Compatibility
 blender_version_min = "4.2.0"
@@ -21,7 +21,7 @@ blender_version_min = "4.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
 
 # Copyright information
-copyright = ["2026 Your Name"]
+copyright = ["2026 Qaisar Daud"]
 
 # Supported Platforms
 platforms = ["windows-x64", "windows-arm64", "macos-x64", "macos-arm64", "linux-x64"]
